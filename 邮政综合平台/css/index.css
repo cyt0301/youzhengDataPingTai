@@ -1,0 +1,106 @@
+/*-----------------页头样式-----------------*/
+.header{background: url("../images/1.jpg") repeat-y;}
+.header .yzydsj{color: #fff;padding: 20px 0px;font-size: 33px;font-weight: bold;vertical-align: middle;}
+.header .tuichu{margin-left: 20px;}
+.header .header-right{}
+.header .hello{text-align: right;color: #fff;margin-bottom: 30px;}
+/*.header .hello span{background: rgba(25,81,142,.8);width: 235px; display: inline-block;}*/
+.header ul li{display: inline-block;padding:10px 20px;background: #0f83f8;border-radius: 5px 5px 0px 0px;margin-right: 5px;position: relative;}
+.tssj{display: block;width: 20px;height: 20px;background: url("../images/10.png") no-repeat;position: absolute;right: 5px;top: -15px;color: #fff;text-align: center;}
+.header ul li:first-child{background: #fff;}
+.header ul li:first-child a{color: #3876cd;}
+.header ul li a{color: #fff;font-size: 16px;}
+
+/*------------------选择省市样式--------------*/
+.city{background: url("../images/2.jpg") repeat-y;}
+.city .qxz{margin-right: 15px;}
+.city select{position: relative;}
+.city .qxz .select_pic{position: absolute;right: 15px;top: 24px;}
+.city select,.city input,.city button{
+    height: 29px;
+    margin: 25px 0px;
+    color: #fff;
+    background-color: #31415d;
+    border: 1px solid #31415d;
+}
+.city button{text-align: center;padding: 0px 50px;background: #17599b;border-radius: 30px;}
+
+/*------------------内容样式开始-------------*/
+.section{background: url("../images/8.jpg") repeat-y;}
+.section .bianju{padding: 10px 0px;border-bottom: 1px solid #cbd4db;}
+.section .bianju .smsjzl{background: url("../images/3.jpg") no-repeat;border-radius: 5px;margin-right: 5px;padding: 20px;}
+.section .bianju .dsydzl{background: url("../images/4.jpg") no-repeat;border-radius: 5px;margin-right: 5px;padding: 20px;}
+.section .bianju .ssmdl{background: url("../images/5.jpg") no-repeat;border-radius: 5px;margin-right: 5px;padding: 20px;}
+.section .bianju .qysml{background: url("../images/6.jpg") no-repeat;border-radius: 5px;margin-right: 5px;padding: 20px;}
+.section .bianju .mc{text-align: center;color: #fff;}
+.section .bianju .count{text-align: center;font-size: 30px;font-weight: bold;color: #fff;}
+/*------------我的常用功能行样式-----------*/
+.section .row-2{border-top: 1px solid #fff;border-bottom: 1px solid #cbd4db;padding: 10px 0px;}
+.section .row-2 .cygn_1{display: inline-block;padding: 10px 20px;background: #ced3dd;border-radius: 5px;margin-right: 5px;position: relative;}
+.section .row-2 .cygn_1 img{position: absolute;top: 2px;right: 2px;}
+.section .my_cygn{display:inline-block;padding: 15px 20px;border-radius: 0px 20px 20px 0px;background: #264b8c;color: #05e7dd;margin-right: 10px;position: relative;}
+.section .my_cygn .cygn_pic{position: absolute;right: -8px ;top: 15px;}
+.section .zfgl{}
+.section .tl{padding:5px 30px;text-align: center;vertical-align: middle;background: #2e7cce;color: #fff;border-radius: 15px;}
+/*-------------待办信息行样式--------------*/
+.section .row-3{border-top: 1px solid #fff;padding: 10px 0px;}
+.section .daiban{background: #fff;padding: 20px 5px;border-radius: 5px;margin-right: 15px;}
+.section .daiban div{padding-bottom: 10px;border-bottom: 1px solid #e8e8e8;position: relative;}
+.section .daiban .more{position: absolute;right: 20px;top: 21px;}
+.section .daiban div a{text-align: right;}
+.section .row-3 .table{margin-bottom: 0px;margin-top: 10px;}
+.section .sjtb_container{float: left;width: 20%;text-align: center;}
+.section .sjtb{margin-right: 10px;}
+.section .sjtb .sjtb_name{background: #2061a6;color: #fff;padding: 15px;border-radius: 5px 5px 0px 0px;}
+.section .sjcx{margin-right: 10px;}
+.section .sjcx .sjtb_name{background: #438643;color: #fff;padding: 15px;border-radius: 5px 5px 0px 0px;}
+.section .tjfx{margin-right: 10px;}
+.section .tjfx .sjtb_name{background: #bd7725;color: #fff;padding: 15px;border-radius: 5px 5px 0px 0px;}
+.section .tjfx .tjfx_all{}
+.section .tjfx .tjfx_all .tjfx_left,.tjfx .tjfx_all .tjfx_right{display: inline-block;width: 48%;}
+.section .ssjc .sjtb_name{background: #9e4242;color: #fff;padding: 15px;border-radius: 5px 5px 0px 0px;}
+.section .sjtb-children div{background: #fff;padding: 15px 0px;margin-bottom: 10px;border-radius: 5px;}
+.section .sjtb-children div:first-child{margin-top: -2px;}
+
+/*-------------------市场监管信息行样式-----------------*/
+.row-4{background: #ebf0f3;padding: 10px 0px;}
+.row-4 .container{position: relative;}
+.row-4 .tab-bar{clear: both;background: #202b3d;padding-top: 3px;border-radius: 5px 5px 0px 0px;padding-left: 130px;}
+.row-4 .scjgxx{position: absolute;left: 25px;top:13px;color: #fff;}
+.row-4 .tab-bar div{float: left;padding: 10px 20px;background: #202b3d;color: #fff;border-radius: 3px 3px 0px 0px;cursor: pointer;}
+.row-4 .tab-bar .on{background: #1789f9 !important;}
+.row-4 .tab-box .box .table{text-align: center;}
+.row-4 .tab-box .box .table th{text-align: center;color: #fda110;background: #e8e9eb;}
+.row-4 .tab-box .box .table tr{background: #fff;color: #8a94a5;}
+.row-4 .tab-box .box .table tr td{border-bottom: 1px solid #f7f9fa !important;border-right: 1px solid #f7f9fa !important;}
+
+.row-5{background: #ebf0f3;padding: 10px 0px;}
+.row-5 .qy{
+    background: #202b3d;
+    padding: 10px 0px;
+    text-align: left;
+    color: #fff;
+    border-radius: 5px 5px 0px 0px;
+    font-size: 16px;
+    padding-left: 15px;
+}
+.row-5 .qy_left{margin-right: 15px;}
+.row-5 #qyywltjfx{background: #fff;}
+.row-5 #qysmltjfx{background: #fff;}
+
+.row-6{background: #ebf0f3;padding: 10px 0px;}
+.row-6 .tab-bar-1{clear: both;background: #202b3d;padding-top: 3px;border-radius: 5px 5px 0px 0px;padding-left: 20px;}
+.row-6 .tab-bar-1 div{float: left;padding: 10px 20px;background: #202b3d;color: #fff;border-radius: 3px 3px 0px 0px;cursor: pointer;}
+.row-6 .tab-bar-1 .on{background: #1789f9 !important;}
+.row-6 .tab-box-1{background: #fff;padding: 15px 30px;}
+.row-6 .tab-box-1 .box ul li{
+    display: inline-block;
+    padding: 5px 35px;
+    background: #ebf0f3;
+    border-radius: 20px;
+    margin-right: 10px !important;
+    margin-top: 10px !important;
+}
+.row-6 .tab-box-1 .box ul li a{color: #475773;}
+
+.row-7{background: #205d9f;height: 50px;}

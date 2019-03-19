@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>西城大数据</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/echarts.js"></script>
+    <!--[if lt IE 9 ]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
+                <div class="yzydsj">
+                    <!--<img src="images/7.png" alt="">-->
+                    西城大数据综合治理平台
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
+                <div class="header-right">
+                    <div class="hello">
+                        <div><img src="images/2.png" alt="">您好！haoaiguoc <span class="tuichu"><img src="images/1.png" alt="">退出</span></div>
+                    </div>
+                    <ul>
+                        <li><a href="">待办信息</a><span class="tssj">1</span></li>
+                        <li><a href="">数据查询</a></li>
+                        <li><a href="">在线培训</a></li>
+                        <li><a href="">统计分析</a></li>
+                        <li><a href="">系统管理</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="city">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                <div class="qxz">
+                    <select name="" class="form-control">
+                        <option value="1">请选择省</option>
+                        <option value="2">山西省</option>
+                        <option value="3">河北省</option>
+                        <option value="4">河南省</option>
+                    </select>
+                    <img src="images/12.png" class="select_pic">
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                <div class="qxz">
+                    <select name="" class="form-control">
+                        <option value="1">请选择市</option>
+                        <option value="2">山西省</option>
+                        <option value="3">河北省</option>
+                        <option value="4">河南省</option>
+                    </select>
+                    <img src="images/12.png" class="select_pic">
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                <div class="qxz">
+                    <select name="" class="form-control">
+                        <option value="1">请选择县</option>
+                        <option value="2">山西省</option>
+                        <option value="3">河北省</option>
+                        <option value="4">河南省</option>
+                    </select>
+                    <img src="images/12.png" class="select_pic">
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                <div class="qxz">
+                    <input type="text" class="form-control" placeholder="请输入名称">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <button type="button" class="btn btn-primary" style="margin-right: 15px;">查询</button>
+                <button type="button" class="btn btn-primary">高级查询</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section">
+    <div class="container">
+        <div class="bianju">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="smsjzl">
+                        <div class="mc">实名收寄总量</div>
+                        <div class="count">345267</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="dsydzl">
+                        <div class="mc">电商运单总量</div>
+                        <div class="count">345267</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="ssmdl">
+                        <div class="mc">实时面单量</div>
+                        <div class="count">345267</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="qysml">
+                        <div class="mc">企业实名录</div>
+                        <div class="count">345267</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row-2">
+            <div class="my_cygn">我的常用功能 <img src="images/3.png" class="cygn_pic"></div>
+            <div class="zfgl cygn_1">
+                <div class="tl">执法管理</div>
+                <img src="images/11.png" alt="">
+            </div>
+            <div class="smsjxxcx cygn_1">
+                <div class="tl">实名收寄信息查询</div>
+                <img src="images/11.png" alt="">
+            </div>
+            <div class="xkqyml cygn_1">
+                <div class="tl">许可企业名录</div>
+                <img src="images/11.png" alt="">
+            </div>
+        </div>
+        <div class="row-3">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="daiban">
+                        <div>您有15条待办信息</div>
+                        <a href="" class="more"> 更多>> </a>
+                        <hr style="width: 115px;border:2px solid #2d7dce;margin: 0;padding: 0;margin-top: -4px;">
+                        <table class="table table-condensed">
+                            <tr class="active">
+                                <td>【执法】</td>
+                                <td>显示待办名称全部</td>
+                                <td>发送人</td>
+                            </tr>
+                            <tr>
+                                <td>【执法】</td>
+                                <td>显示待办名称全部</td>
+                                <td>发送人</td>
+                            </tr>
+                            <tr class="active">
+                                <td>【执法】</td>
+                                <td>显示待办名称全部</td>
+                                <td>发送人</td>
+                            </tr>
+                            <tr>
+                                <td>【执法】</td>
+                                <td>显示待办名称全部</td>
+                                <td>发送人</td>
+                            </tr>
+                            <tr class="active">
+                                <td>【执法】</td>
+                                <td>显示待办名称全部</td>
+                                <td>发送人</td>
+                            </tr>
+                            <tr>
+                                <td>【执法】</td>
+                                <td>显示待办名称全部</td>
+                                <td>发送人</td>
+                            </tr>
+                            <tr class="active">
+                                <td>【执法】</td>
+                                <td>显示待办名称全部</td>
+                                <td>发送人</td>
+                            </tr>
+                            <tr>
+                                <td>【执法】</td>
+                                <td>显示待办名称全部</td>
+                                <td>发送人</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <div class="sjtb_container">
+                            <div class="sjtb">
+                                <div class="sjtb_name">数据填报</div>
+                                <div class="sjtb-children">
+                                    <div>许可企业填报</div>
+                                    <div>申诉案件录入</div>
+                                    <div>执法检查</div>
+                                    <div>普服审批填报</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sjtb_container">
+                            <div class="sjcx">
+                                <div class="sjtb_name">数据查询</div>
+                                <div class="sjtb-children">
+                                    <div>许可企业名录</div>
+                                    <div>检查信息</div>
+                                    <div>执法管理</div>
+                                    <div>案件信息</div>
+                                    <div>行政处罚管理</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sjtb_container" style="width: 40%">
+                            <div class="tjfx">
+                                <div class="sjtb_name">统计分析</div>
+                                <div class="tjfx_all">
+                                    <div class="sjtb-children tjfx_left" style="margin-right: 5px;">
+                                        <div>许可企业名录</div>
+                                        <div>检查信息</div>
+                                        <div>执法管理</div>
+                                        <div>案件信息</div>
+                                        <div>行政处罚管理</div>
+                                    </div>
+                                    <div class="sjtb-children tjfx_right">
+                                        <div>许可企业名录</div>
+                                        <div>检查信息</div>
+                                        <div>执法管理</div>
+                                        <div>案件信息</div>
+                                        <div>行政处罚管理</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sjtb_container">
+                            <div class="ssjc">
+                                <div class="sjtb_name">实时监测</div>
+                                <div class="sjtb-children">
+                                    <div>许可企业名录</div>
+                                    <div>检查信息</div>
+                                    <div>执法管理</div>
+                                    <div>案件信息</div>
+                                    <div>行政处罚管理</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row-4">
+    <div class="container">
+        <div class="row">
+            <div class="scjgxx">市场监管信息</div>
+            <div class="tab-bar clearfix">
+                    <div class="on">实名量统计表(件)</div>
+                    <div>面单量统计表</div>
+                    <div>投递量统计表</div>
+                    <div>揽收量统计表</div>
+                    <div>电商量统计表</div>
+                    <div>业务量统计表</div>
+                </div>
+                <div>
+                    <div class="tab-box">
+                        <div class="box">
+                            <div class="table-responsive">
+                                <table class="table table-bordered">
+                                    <tr>
+                                        <th>企业/日期1</th>
+                                        <th>总数</th>
+                                        <th>EMS</th>
+                                        <th>顺丰</th>
+                                        <th>申通</th>
+                                        <th>圆通</th>
+                                        <th>中通</th>
+                                        <th>韵达</th>
+                                        <th>百世</th>
+                                        <th>中国邮政</th>
+                                        <th>京绑达</th>
+                                    </tr>
+                                    <tr>
+                                        <td>2019-02-06</td>
+                                        <td>112,967,354</td>
+                                        <td>1822,420</td>
+                                        <td>7,618764</td>
+                                        <td>822,4</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2019-02-06</td>
+                                        <td>112,967,354</td>
+                                        <td>1822,420</td>
+                                        <td>7,618764</td>
+                                        <td>822,4</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2019-02-06</td>
+                                        <td>112,967,354</td>
+                                        <td>1822,420</td>
+                                        <td>7,618764</td>
+                                        <td>822,4</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2019-02-06</td>
+                                        <td>112,967,354</td>
+                                        <td>1822,420</td>
+                                        <td>7,618764</td>
+                                        <td>822,4</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="box" style="display: none;">
+                            <div class="table-responsive">
+                                <table class="table table-bordered">
+                                    <tr>
+                                        <th>企业/日期2</th>
+                                        <th>总数</th>
+                                        <th>EMS</th>
+                                        <th>顺丰</th>
+                                        <th>申通</th>
+                                        <th>圆通</th>
+                                        <th>中通</th>
+                                        <th>韵达</th>
+                                        <th>百世</th>
+                                        <th>中国邮政</th>
+                                        <th>京绑达</th>
+                                    </tr>
+                                    <tr>
+                                        <td>2019-02-06</td>
+                                        <td>112,967,354</td>
+                                        <td>1822,420</td>
+                                        <td>7,618764</td>
+                                        <td>822,4</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2019-02-06</td>
+                                        <td>112,967,354</td>
+                                        <td>1822,420</td>
+                                        <td>7,618764</td>
+                                        <td>822,4</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2019-02-06</td>
+                                        <td>112,967,354</td>
+                                        <td>1822,420</td>
+                                        <td>7,618764</td>
+                                        <td>822,4</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2019-02-06</td>
+                                        <td>112,967,354</td>
+                                        <td>1822,420</td>
+                                        <td>7,618764</td>
+                                        <td>822,4</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="box" style="display: none;">
+                            <div class="table-responsive">
+                                <table class="table table-bordered">
+                                    <tr>
+                                        <th>企业/日期3</th>
+                                        <th>总数</th>
+                                        <th>EMS</th>
+                                        <th>顺丰</th>
+                                        <th>申通</th>
+                                        <th>圆通</th>
+                                        <th>中通</th>
+                                        <th>韵达</th>
+                                        <th>百世</th>
+                                        <th>中国邮政</th>
+                                        <th>京绑达</th>
+                                    </tr>
+                                    <tr>
+                                        <td>2019-02-06</td>
+                                        <td>112,967,354</td>
+                                        <td>1822,420</td>
+                                        <td>7,618764</td>
+                                        <td>822,4</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2019-02-06</td>
+                                        <td>112,967,354</td>
+                                        <td>1822,420</td>
+                                        <td>7,618764</td>
+                                        <td>822,4</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2019-02-06</td>
+                                        <td>112,967,354</td>
+                                        <td>1822,420</td>
+                                        <td>7,618764</td>
+                                        <td>822,4</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2019-02-06</td>
+                                        <td>112,967,354</td>
+                                        <td>1822,420</td>
+                                        <td>7,618764</td>
+                                        <td>822,4</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="box" style="display: none;">
+                            <div class="table-responsive">
+                                <table class="table table-bordered">
+                                    <tr>
+                                        <th>企业/日期4</th>
+                                        <th>总数</th>
+                                        <th>EMS</th>
+                                        <th>顺丰</th>
+                                        <th>申通</th>
+                                        <th>圆通</th>
+                                        <th>中通</th>
+                                        <th>韵达</th>
+                                        <th>百世</th>
+                                        <th>中国邮政</th>
+                                        <th>京绑达</th>
+                                    </tr>
+                                    <tr>
+                                        <td>2019-02-06</td>
+                                        <td>112,967,354</td>
+                                        <td>1822,420</td>
+                                        <td>7,618764</td>
+                                        <td>822,4</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2019-02-06</td>
+                                        <td>112,967,354</td>
+                                        <td>1822,420</td>
+                                        <td>7,618764</td>
+                                        <td>822,4</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2019-02-06</td>
+                                        <td>112,967,354</td>
+                                        <td>1822,420</td>
+                                        <td>7,618764</td>
+                                        <td>822,4</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2019-02-06</td>
+                                        <td>112,967,354</td>
+                                        <td>1822,420</td>
+                                        <td>7,618764</td>
+                                        <td>822,4</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="box" style="display: none;">
+                            <div class="table-responsive">
+                                <table class="table table-bordered">
+                                    <tr>
+                                        <th>企业/日期5</th>
+                                        <th>总数</th>
+                                        <th>EMS</th>
+                                        <th>顺丰</th>
+                                        <th>申通</th>
+                                        <th>圆通</th>
+                                        <th>中通</th>
+                                        <th>韵达</th>
+                                        <th>百世</th>
+                                        <th>中国邮政</th>
+                                        <th>京绑达</th>
+                                    </tr>
+                                    <tr>
+                                        <td>2019-02-06</td>
+                                        <td>112,967,354</td>
+                                        <td>1822,420</td>
+                                        <td>7,618764</td>
+                                        <td>822,4</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2019-02-06</td>
+                                        <td>112,967,354</td>
+                                        <td>1822,420</td>
+                                        <td>7,618764</td>
+                                        <td>822,4</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2019-02-06</td>
+                                        <td>112,967,354</td>
+                                        <td>1822,420</td>
+                                        <td>7,618764</td>
+                                        <td>822,4</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2019-02-06</td>
+                                        <td>112,967,354</td>
+                                        <td>1822,420</td>
+                                        <td>7,618764</td>
+                                        <td>822,4</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="box" style="display: none;">
+                            <div class="table-responsive">
+                                <table class="table table-bordered">
+                                    <tr>
+                                        <th>企业/日期6</th>
+                                        <th>总数</th>
+                                        <th>EMS</th>
+                                        <th>顺丰</th>
+                                        <th>申通</th>
+                                        <th>圆通</th>
+                                        <th>中通</th>
+                                        <th>韵达</th>
+                                        <th>百世</th>
+                                        <th>中国邮政</th>
+                                        <th>京绑达</th>
+                                    </tr>
+                                    <tr>
+                                        <td>2019-02-06</td>
+                                        <td>112,967,354</td>
+                                        <td>1822,420</td>
+                                        <td>7,618764</td>
+                                        <td>822,4</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2019-02-06</td>
+                                        <td>112,967,354</td>
+                                        <td>1822,420</td>
+                                        <td>7,618764</td>
+                                        <td>822,4</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2019-02-06</td>
+                                        <td>112,967,354</td>
+                                        <td>1822,420</td>
+                                        <td>7,618764</td>
+                                        <td>822,4</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2019-02-06</td>
+                                        <td>112,967,354</td>
+                                        <td>1822,420</td>
+                                        <td>7,618764</td>
+                                        <td>822,4</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                        <td>7,618764</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <script>
+            $(function(){
+                $('.tab-bar>div').click(function(){
+                    $(this).addClass('on').siblings().removeClass('on');
+                    var index = $(this).index();
+                    $('.tab-box>.box').eq(index).show().siblings().hide();
+                })
+            })
+        </script>
+    </div>
+</div>
+<div class="row-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="qy_left">
+                    <div class="qy">企业业务量统计分析</div>
+                    <div id="qyywltjfx" style="width:100%;height:375px;"></div>
+                </div>
+                <script>
+                    var myChart = echarts.init(document.getElementById('qyywltjfx'));
+                    option = {
+                        color: ['#07dbc4'],
+                        tooltip: {
+                            trigger: 'axis',
+                            axisPointer : {            // 坐标轴指示器，坐标轴触发有效
+                                type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+                            }
+                        },
+                        grid: {
+                            left: '3%',
+                            right: '4%',
+                            bottom: '3%',
+                            containLabel: true
+                        },
+                        legend: {
+                            data:['收寄业务量','实名业务量']
+                        },
+                        dataset: {
+                            source: [
+                                ['顺丰', 10000,5000],
+                                ['申通', 20000, 10000],
+                                ['圆通', 30000, 15000],
+                                ['中通', 30000, 20000],
+                                ['韵达', 20000, 25000],
+                                ['百世', 40000, 30000],
+                                ['中国邮政', 45000, 35000],
+                                ['天天', 50000, 40000],
+                                ['京绑达', 45000, 50000],
+                                ['EMS', 60000, 55000]
+                            ]
+                        },
+                        xAxis:[
+                            {
+                                type : 'category',
+                                axisLabel:{interval: 0},
+                                axisTick: {
+                                    alignWithLabel: true
+                                },
+                                splitLine:{show:false}
+                            }
+                        ]
+                        ,
+                        yAxis: {
+                            splitLine:{
+                                show:true,
+                                lineStyle:{
+                                    type:'dashed'
+                                }
+                            }
+                        },
+                        series: [
+                            {
+                                name:'收寄业务量',
+                                type: 'bar',
+                                barWidth: '30%',
+                                color:'#ff8f00'
+                            },
+                            {
+                                name:'实名业务量',
+                                type: 'bar',
+                                barWidth: '30%',
+                                color:'#009eff'
+                            }
+                        ]
+                    };
+//                    option = {
+//                        legend: {},
+//                        tooltip: {},
+//                        axisPointer : {            // 坐标轴指示器，坐标轴触发有效
+//                            type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+//                        },
+//                        dataset: {
+//                            source: [
+//                                ['product', '收寄业务量', '实名业务量'],
+//                                ['顺丰', 10000,5000],
+//                                ['申通', 20000, 10000],
+//                                ['圆通', 30000, 15000],
+//                                ['中通', 30000, 20000],
+//                                ['韵达', 20000, 25000],
+//                                ['百世', 40000, 30000],
+//                                ['中国邮政', 45000, 35000],
+//                                ['天天', 50000, 40000],
+//                                ['京绑达', 45000, 50000],
+//                                ['EMS', 60000, 55000]
+//                            ]
+//                        },
+//                        xAxis: {
+//                            type: 'category',
+//                            splitLine:{show:false}
+//                        },
+//                        yAxis: {},
+//                        series: [
+//                            {
+//                                type: 'bar',
+//                                barWidth: '30%'
+//                            },
+//                            {
+//                                type: 'bar',
+//                                barWidth: '30%'
+//                            }
+//                        ]
+//                    };
+                    myChart.setOption(option);
+                </script>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div>
+                    <div class="qy">企业实名率统计分析</div>
+                    <div id="qysmltjfx" style="width:100%;height:375px;"></div>
+                </div>
+                <script>
+                    var myChart = echarts.init(document.getElementById('qysmltjfx'));
+                    option = {
+                        color: ['#07dbc4'],
+                        tooltip: {
+                            trigger: 'axis',
+                            axisPointer : {            // 坐标轴指示器，坐标轴触发有效
+                                type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+                            }
+                        },
+                        grid: {
+                            left: '3%',
+                            right: '4%',
+                            bottom: '3%',
+                            containLabel: true
+                        },
+                        legend: {
+                            data:[]
+                        },
+                        xAxis:[
+                            {
+                                type : 'category',
+                                axisLabel:{interval: 0},
+                                data: ["顺丰","申通","圆通","中通","韵达","百世","中国邮政","天天","京绑达","EMS"],
+                                axisTick: {
+                                    alignWithLabel: true
+                                },
+                                splitLine:{show:false}
+                            }
+                        ]
+                        ,
+                        yAxis: {
+                            splitLine:{
+                                show:true,
+                                lineStyle:{
+                                    type:'dashed'
+                                }
+                            }
+                        },
+                        series: [{
+                            name: '',
+                            type: 'bar',
+                            barWidth: '30%',
+                            data: [2000, 10000, 20000, 30000, 40000, 50000,60000,23743,7234,33333]
+                        }]
+                    };
+                    myChart.setOption(option);
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row-6">
+    <div class="container">
+        <div class="row">
+            <div class="tab-bar-1 clearfix">
+                <div class="on">实名监管</div>
+                <div>安易递</div>
+                <div>电商平台</div>
+                <div>执法系统</div>
+                <div>信用系统</div>
+                <div>市场监管</div>
+                <div>视频巡查</div>
+                <div>安检机联网</div>
+            </div>
+            <div>
+                <div class="tab-box-1">
+                    <div class="box">
+                        <ul>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">企业监测</a></li>
+                            <li><a href="">区域监测</a></li>
+                            <li><a href="">实名业务量统计</a></li>
+                            <li><a href="">实名收寄信息查询</a></li>
+                            <li><a href="">用户面验统计方式</a></li>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">总量监测</a></li>
+                        </ul>
+                    </div>
+                    <div class="box" style="display: none;">
+                        <ul>
+                            <li><a href="">总量监测11</a></li>
+                            <li><a href="">企业监测</a></li>
+                            <li><a href="">区域监测</a></li>
+                            <li><a href="">实名业务量统计</a></li>
+                            <li><a href="">实名收寄信息查询</a></li>
+                            <li><a href="">用户面验统计方式</a></li>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">总量监测</a></li>
+                        </ul>
+                    </div>
+                    <div class="box" style="display: none;">
+                        <ul>
+                            <li><a href="">总量监测22</a></li>
+                            <li><a href="">企业监测</a></li>
+                            <li><a href="">区域监测</a></li>
+                            <li><a href="">实名业务量统计</a></li>
+                            <li><a href="">实名收寄信息查询</a></li>
+                            <li><a href="">用户面验统计方式</a></li>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">总量监测</a></li>
+                        </ul>
+                    </div>
+                    <div class="box" style="display: none;">
+                        <ul>
+                            <li><a href="">总量监测33</a></li>
+                            <li><a href="">企业监测</a></li>
+                            <li><a href="">区域监测</a></li>
+                            <li><a href="">实名业务量统计</a></li>
+                            <li><a href="">实名收寄信息查询</a></li>
+                            <li><a href="">用户面验统计方式</a></li>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">总量监测</a></li>
+                        </ul>
+                    </div>
+                    <div class="box" style="display: none;">
+                        <ul>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">企业监测</a></li>
+                            <li><a href="">区域监测</a></li>
+                            <li><a href="">实名业务量统计</a></li>
+                            <li><a href="">实名收寄信息查询</a></li>
+                            <li><a href="">用户面验统计方式</a></li>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">总量监测</a></li>
+                        </ul>
+                    </div>
+                    <div class="box" style="display: none;">
+                        <ul>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">企业监测</a></li>
+                            <li><a href="">区域监测</a></li>
+                            <li><a href="">实名业务量统计</a></li>
+                            <li><a href="">实名收寄信息查询</a></li>
+                            <li><a href="">用户面验统计方式</a></li>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">总量监测</a></li>
+                        </ul>
+                    </div>
+                    <div class="box" style="display: none;">
+                        <ul>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">企业监测</a></li>
+                            <li><a href="">区域监测</a></li>
+                            <li><a href="">实名业务量统计</a></li>
+                            <li><a href="">实名收寄信息查询</a></li>
+                            <li><a href="">用户面验统计方式</a></li>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">总量监测</a></li>
+                        </ul>
+                    </div>
+                    <div class="box" style="display: none;">
+                        <ul>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">企业监测</a></li>
+                            <li><a href="">区域监测</a></li>
+                            <li><a href="">实名业务量统计</a></li>
+                            <li><a href="">实名收寄信息查询</a></li>
+                            <li><a href="">用户面验统计方式</a></li>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">总量监测</a></li>
+                        </ul>
+                    </div>
+                    <div class="box" style="display: none;">
+                        <ul>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">企业监测</a></li>
+                            <li><a href="">区域监测</a></li>
+                            <li><a href="">实名业务量统计</a></li>
+                            <li><a href="">实名收寄信息查询</a></li>
+                            <li><a href="">用户面验统计方式</a></li>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">总量监测</a></li>
+                        </ul>
+                    </div>
+                    <div class="box" style="display: none;">
+                        <ul>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">企业监测</a></li>
+                            <li><a href="">区域监测</a></li>
+                            <li><a href="">实名业务量统计</a></li>
+                            <li><a href="">实名收寄信息查询</a></li>
+                            <li><a href="">用户面验统计方式</a></li>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">总量监测</a></li>
+                            <li><a href="">总量监测</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            $(function(){
+                $('.tab-bar-1>div').click(function(){
+                    $(this).addClass('on').siblings().removeClass('on');
+                    var index = $(this).index();
+                    $('.tab-box-1>.box').eq(index).show().siblings().hide();
+                })
+            })
+        </script>
+    </div>
+</div>
+<div class="row-7"></div>
+</body>
+</html>
